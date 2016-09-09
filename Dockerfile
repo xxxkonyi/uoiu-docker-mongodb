@@ -1,9 +1,6 @@
 FROM daocloud.io/library/mongo:3.2.9
 MAINTAINER konyi <xxxkonyi@gmail.com>
 
-#create directory
-RUN mkdir data && cd data/ && mkdir db
-
 #create volume
 VOLUME /data/db
 
